@@ -116,7 +116,7 @@ memberRepository.findByName(member.getName());
             class MemberServiceTest{
             
             	MemberService memberService;
-            	MemoryMemberRepository memberRepository;
+            	MemoryMemberRepository memberRepository; 
             
             	@BeforeEach //테스트를 실행할때마다 생성
             	public void beforeEach(){
