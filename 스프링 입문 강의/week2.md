@@ -171,6 +171,7 @@ public interface SpringDataJpaMemberRepository extends JpaRepository<Member,Long
 		//findByName(), findByEmail()처럼 메서드 이름 만으로 조회 기능 제공
 }
 ```
+<img width="479" alt="스크린샷 2023-04-07 오후 7 45 10" src="https://user-images.githubusercontent.com/124131845/230834973-5b148c0c-94b9-4688-a726-03c8fb4b4655.png">
 
 ![스크린샷 2023-04-07 오후 7.45.10.png](2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20bb58b474dfad4702b6e3d839b0252361/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-04-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_7.45.10.png)
 
