@@ -255,14 +255,17 @@ public class TimeTraceAop {
 
 - AOP 동작방식
 
+
  <img width="500" alt="스크린샷 2023-04-10 오후 1 02 38" src="https://user-images.githubusercontent.com/124131845/230835339-d0c29ff4-0532-4db2-8729-77b27b4f259b.png">
 
     
- <img width="600" alt="스크린샷 2023-04-10 오후 1 03 17" src="https://user-images.githubusercontent.com/124131845/230835444-fe37eeab-a1da-4ca9-b218-528bc61270e8.png">
+ <img width="500" alt="스크린샷 2023-04-10 오후 1 03 17" src="https://user-images.githubusercontent.com/124131845/230835444-fe37eeab-a1da-4ca9-b218-528bc61270e8.png">
  스프링은 AOP가 있으면 가짜 멤버 서비스(프록시)를 만들어 냄. 이 프록시를 앞세워두고 joinPoint.proceed()같은걸 했을 때 실제 멤버 서비스를 호출해준다.
  
  
  
+ 
+ 
     
-   <img width="600" alt="스크린샷 2023-04-10 오후 1 24 08" src="https://user-images.githubusercontent.com/124131845/230835549-99e33635-c06a-4da1-adfb-7053ce4f482a.png">
+   <img width="500" alt="스크린샷 2023-04-10 오후 1 24 08" src="https://user-images.githubusercontent.com/124131845/230835549-99e33635-c06a-4da1-adfb-7053ce4f482a.png">
  가짜를 만들어서 DI해줌
