@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MemberServiceIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MemberServiceIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/hello.hellospring.service.html">hello.hellospring.service</a> &gt; MemberServiceIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.241s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">중복_회원_예외()</td>
+<td class="success">0.231s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">회원가입()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:09:30.353 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [MemberServiceIntegrationTest]: using SpringBootContextLoader
+20:09:30.356 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.hellospring.service.MemberServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:09:30.356 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.hellospring.service.MemberServiceIntegrationTest]: MemberServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:09:30.372 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [MemberServiceIntegrationTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+20:09:30.420 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/minji/Desktop/스프링/hello-spring/build/classes/java/main/hello/hellospring/HelloSpringApplication.class]
+20:09:30.421 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.hellospring.HelloSpringApplication for test class hello.hellospring.service.MemberServiceIntegrationTest
+20:09:30.480 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [MemberServiceIntegrationTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+20:09:30.480 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [MemberServiceIntegrationTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.4)
+
+2023-04-07T20:09:30.647+09:00  INFO 4616 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Starting MemberServiceIntegrationTest using Java 19.0.2 with PID 4616 (started by minji in /Users/minji/Desktop/스프링/hello-spring)
+2023-04-07T20:09:30.648+09:00  INFO 4616 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-04-07T20:09:30.998+09:00  INFO 4616 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-07T20:09:31.031+09:00  INFO 4616 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2023-04-07T20:09:31.298+09:00  INFO 4616 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-07T20:09:31.334+09:00  INFO 4616 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-07T20:09:31.504+09:00  INFO 4616 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-07T20:09:31.561+09:00  INFO 4616 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-04-07T20:09:31.561+09:00  INFO 4616 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-07T20:09:31.588+09:00  INFO 4616 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-07T20:09:31.994+09:00  INFO 4616 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-07T20:09:31.999+09:00  INFO 4616 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-07T20:09:32.266+09:00  WARN 4616 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-07T20:09:32.364+09:00  INFO 4616 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-04-07T20:09:32.480+09:00  INFO 4616 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Started MemberServiceIntegrationTest in 1.969 seconds (process running for 2.645)
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+Hibernate: insert into member (id, name) values (default, ?)
+join = 83ms
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+join = 5ms
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+Hibernate: insert into member (id, name) values (default, ?)
+join = 2ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6.1</a> at 2023. 4. 7. 오후 8:09:32</p>
+</div>
+</div>
+</body>
+</html>
